@@ -1,14 +1,4 @@
 GIT
-  remote: https://github.com/Buju77/Core.git
-  revision: 9f34d0198a1057300a21e55a5531730456f06b84
-  branch: 1-6-runtastic
-  specs:
-    cocoapods-core (1.6.2.1.pre.runtastic)
-      activesupport (>= 4.0.2, < 6)
-      fuzzy_match (~> 2.0.4)
-      nap (~> 1.0)
-
-GIT
   remote: https://github.com/CocoaPods/CLAide.git
   revision: 896d82a4dff73d80da565b0caa77c6ed74c9c6f8
   branch: master
@@ -94,6 +84,16 @@ GIT
     cocoapods-try (1.1.0)
 
 GIT
+  remote: https://github.com/Landsi/Core.git
+  revision: 6e09b23d40818f822352fa5a9677f57226ea5a65
+  branch: 1-6-runtastic
+  specs:
+    cocoapods-core (1.6.2.2.pre.runtastic)
+      activesupport (>= 4.0.2, < 6)
+      fuzzy_match (~> 2.0.4)
+      nap (~> 1.0)
+
+GIT
   remote: https://github.com/segiddins/json.git
   revision: a9588bc4334c2f5bf985f255b61c05eafdcd8907
   branch: seg-1.7.7-ruby-2.2
@@ -103,10 +103,10 @@ GIT
 PATH
   remote: .
   specs:
-    cocoapods (1.6.2.1.pre.runtastic)
+    cocoapods (1.6.2.2.pre.runtastic)
       activesupport (>= 4.0.2, < 5)
       claide (>= 1.0.2, < 2.0)
-      cocoapods-core (= 1.6.2.1.pre.runtastic)
+      cocoapods-core (= 1.6.2.2.pre.runtastic)
       cocoapods-deintegrate (>= 1.0.2, < 2.0)
       cocoapods-downloader (>= 1.2.2, < 2.0)
       cocoapods-plugins (>= 1.0.0, < 2.0)
@@ -176,7 +176,7 @@ GEM
     faraday-http-cache (2.0.0)
       faraday (~> 0.8)
     ffi (1.11.1)
-    fourflusher (2.3.0)
+    fourflusher (2.3.1)
     fuzzy_match (2.0.4)
     gh_inspector (1.1.3)
     git (1.5.0)

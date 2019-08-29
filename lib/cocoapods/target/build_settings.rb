@@ -790,7 +790,7 @@ module Pod
 
         # @return [String]
         define_build_settings_method :product_bundle_identifier, :build_setting => true do
-          'org.cocoapods.${PRODUCT_NAME:rfc1034identifier}'
+          'org.cocoapods.${PRODUCT_NAME:rfc1034identifier}.${PLATFORM_NAME}'
         end
 
         # @return [String]
